@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.crud{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table td{
+  width: 240px;
+  height: 40px;
+  background-color: blue;
+  text-align: center;
+  color: aliceblue;
+}
+table td button{
+  padding: 5px,10px;
+  border-radius: 5%;
+  cursor: pointer;
+}
+table td button.edit {
+  border:1px solid green;
+  background-color: green;
+  color: aliceblue;
+
+}
+table td button.edit:hover{
+  background-color: rgb(2, 77, 2);
+}
+table td button.delete{
+  border: 1px solid red;
+ background-color: rgb(217, 10, 10);
+ color: aliceblue;
+}
+table td button.delete:hover{
+  background-color: rgb(144, 10, 10);
+}
+.addForm{
+  margin-bottom: 30px;
+}
+.addForm input{
+  width: 230px;
+  height: 30px;
+}
+.addForm button{
+  width: 240px;
+  color: rgb(201, 205, 201);
+  background-color: green;
+  height: 40px;
+}
+.addForm button:hover{
+  background-color: rgb(10, 99, 10);
+}
